@@ -17,9 +17,9 @@ You can add your projects, or any valid programs(please don't add programs like 
 
 -----
 #### Instructions:
-1. Make sure you have a GitHub account. In case you don't have one, you can create your account by visiting https://github.com/ and clicking on Sign up option at the top right corner.
-2. Register yourself for Hacktoberfest from the above link.
-3. Now its time for your contribution! Follow the steps below:
+* Make sure you have a GitHub account. In case you don't have one, you can create your account by visiting https://github.com/ and clicking on Sign up option at the top right corner.
+* Register yourself for Hacktoberfest from the above link.
+* Now its time for your contribution! Follow the steps below:
 * Fork the repository (Top right corner of this repo)
 * Clone the forked repository to your local machine.
 ```markdown
