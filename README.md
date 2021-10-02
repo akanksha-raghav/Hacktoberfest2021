@@ -32,12 +32,5 @@ git clone <url>
 
 -----
 
-## Contributor's
-
-<a href="https://github.com/akanksha-raghav/Hacktoberfest2021/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=akanksha-raghav/Hacktoberfest2021" />
-</a>
-
------
 #### You have successfully submitted your first PR, Repeat the steps for submitting 3 more!!
  **Note:** "Please Don't make any changes to README.MD or submit any spam pull request
