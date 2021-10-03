@@ -1,0 +1,1 @@
+This will create an inverted index for a given set of data I will also include example data for reference.
