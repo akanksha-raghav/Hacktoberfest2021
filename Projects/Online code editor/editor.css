@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+  }
+  .header{
+      height: 70px;
+      text-align: center;
+      background-color: #26495c;
+      color: cornsilk;
+      text-shadow: black;
+  }
+  .header button{
+      float: right;
+      width: 90px;
+      height: 30px;
+      margin-bottom: 30px;
+  }
+  .code-area {
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    
+  }
+  .code-area textarea {
+   
+    outline: none;
+    width: 100%;
+    height: 33.33%;
+    font-size: 18px;
+    
+  }
+  #htmlCode{
+      background-color: #c4a35a;
+  }
+  #cssCode{
+    background-color: #c66b3d;
+}
+#jsCode{
+    background-color: #ffc13b;
+}
+  .preview-area {
+    width: 50%;
+    background-color: #e5e5dc;
+  }
+  .preview-area iframe {
+    width: 100%;
+    height: 100%;
+    border-right:1px ;
+  }
