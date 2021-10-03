@@ -3,7 +3,7 @@
 
 ## How it works?
 
-- Import the `prims_MST` in your python file and pass a Graph matrix as show below in the function. The function will print the Minimum spanning tree in Graph
+- Import the `prim_MST` in your python file and pass a Graph matrix as show below in the function. The function will print the Minimum spanning tree in Graph
 
 ```
 # Example Matrix
@@ -15,6 +15,8 @@ graph =[[0,4,3,0,0,0,1,0],
         [0,0,5,0,0,0,2,7],
         [1,0,0,0,6,2,0,0],
         [0,0,0,5,0,7,0,0]]
+        
+prim_MST(graph)
 
 ```
 
