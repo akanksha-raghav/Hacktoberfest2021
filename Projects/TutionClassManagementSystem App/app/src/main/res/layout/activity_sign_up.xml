@@ -1,0 +1,156 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/color1"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+<!--        <EditText-->
+<!--            android:id="@+id/fullName"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:drawableLeft="@drawable/ic_name"-->
+<!--            android:drawablePadding="8dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:hint="Full Name"-->
+<!--            android:inputType="textCapWords"-->
+<!--            android:padding="10dp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorHint="@color/white"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <View-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="1px"-->
+<!--            android:background="@color/white" />-->
+
+        <EditText
+            android:id="@+id/userEmailId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white" />
+
+<!--        <EditText-->
+<!--            android:id="@+id/mobileNumber"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:drawableLeft="@drawable/ic_phone"-->
+<!--            android:drawablePadding="8dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:hint="Mobile Number"-->
+<!--            android:inputType="phone"-->
+<!--            android:padding="10dp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorHint="@color/white"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <View-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="1px"-->
+<!--            android:background="@color/white" />-->
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_pass"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white" />
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_pass"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white" />
+
+
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:padding="5dp"
+            android:text="Sign Up"
+            android:textColor="@color/color1"
+            android:textSize="17sp"
+            />
+
+        <TextView
+            android:id="@+id/already_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Already have Account? Login here."
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>

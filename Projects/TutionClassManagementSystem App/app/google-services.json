@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "461526907891",
+    "project_id": "automessage-ebbba",
+    "storage_bucket": "automessage-ebbba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461526907891:android:c0ece84fd5f778d78db086",
+        "android_client_info": {
+          "package_name": "com.example.automessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461526907891-hk3sk2dpkk75ltqsefh7nn945p6ot8i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5UNG1oudFRuxM4O_ShQhHg0-GBghHQgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461526907891-hk3sk2dpkk75ltqsefh7nn945p6ot8i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
