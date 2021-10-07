@@ -1,0 +1,27 @@
+body{
+  text-align:center;
+  background-color: #2f395c;
+  color: white;
+  font-family: 'Lobster', cursive;
+  border: 50px solid skyblue;
+  border-top: 0px;
+  margin: 0px;
+}
+
+p{
+  padding-top: 5%;
+  padding-right:25%;
+  padding-left: 25%;
+  font-size: 20px;
+}
+input[type=submit]{
+  background-color: orange;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+label{
+  font-size: 18px;
+}
