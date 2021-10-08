@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jokes API</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background: cornflowerblue;
+        font-family: "Redressed",cursive;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 20px;
+    }
+    .container{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
+        padding: 50px 20px;
+        text-align: center;
+        max-width: 100%;
+        width: 800px;
+    }
+    h3{
+        margin: 0;
+        color: rgb(148,141,141);
+        letter-spacing: 2px;
+        text-transform:capitalize;
+    }
+    .joke{
+        font-size: 30px;
+        letter-spacing: 1px;
+        line-height: 40px;
+        margin: 50px auto;
+        max-width: 600px;
+    }
+    .btn{
+        background-color: yellow;
+        color: white;
+        border: 0;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6x rgba(0, 0, 0, 0.1);
+        padding: 12px 30px;
+        font-size: 18px;
+        cursor: pointer;
+        outline: none;
+        font-family: "Mulish", sans-serif;
+        font-weight: 500;
+    }
+    .btn:hover{
+        background-color: rgb(250, 195, 16);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+</style>
+<body>
+    <div class="container">
+        <h3>Best Jokes to make your day!</h3>
+        <div id="joke" class="joke">Awesome joke is loading.....</div>
+        <button id="jokebtn" class="btn">Next Joke</button>
+    </div>
+</body>
+<script>
+    // PROMISES
+    // data milega(fullfilled) => good || ya nahi milega(reject) => error throgh fetch 
+    // we consume the promises na ki create(in 90 %)
+    // we use promises to escape from callback hell
+
+    // const jokes = document.querySelector('#joke');
+    // const jokeBtn = document.querySelector('#jokebtn');
+
+    // const generateJokes = () =>{
+
+    //     const setHeader = {
+    //         headers:{
+    //             Accept : "application/json"
+    //         }
+    //     }
+    //     fetch('https://icanhazdadjoke.com/',setHeader)
+    //     .then((res) => res.json() ) // html to json
+    //     .then((data)=>{
+    //         jokes.innerHTML = data.joke;
+    //     }).catch((error)=>{
+    //         console.log(error);
+    //     })
+    // }
+    
+    // jokeBtn.addEventListener('click',generateJokes);
+    // generateJokes();
+
+
+
+    // Async await
+
+        const jokes = document.querySelector('#joke');
+        const jokeBtn = document.querySelector('#jokebtn');
+
+
+        const generateJokes = async() =>{
+
+        try{
+            const setHeader = {
+            headers:{
+                Accept : "application/json"
+            }
+        }
+        const res = await fetch('https://icanhazdadjoke.com/',setHeader);
+        const data = await res.json(); //html to json
+        jokes.innerHTML = data.joke ;
+        }catch(err){
+        console.log(`The error is ${err}`);
+    }
+}
+    jokeBtn.addEventListener('click',generateJokes);
+    generateJokes();
+
+</script>
+</html>
