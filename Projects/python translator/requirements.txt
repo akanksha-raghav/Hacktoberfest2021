@@ -1,0 +1,4 @@
+pygame
+gTTS
+googletrans
+PyDictionary
