@@ -1,0 +1,4 @@
+#Python program to shutdown the pc or computer
+
+import os
+os.system("shutdown/s/t 1")
