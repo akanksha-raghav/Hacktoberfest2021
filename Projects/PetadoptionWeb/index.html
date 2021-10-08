@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Adoptme</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--  Header  -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+     
+        <h1 class="text-light" >Adopt me</h1> 
+  
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active " href="index.html">HOME</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#search">SEARCH FOR A PET</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+         
+          
+        </ul>
+       
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!--  Hero Section  -->
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <!-- Slide 1 -->
+      
+
+      <!-- Slide 2 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Welcome to adopt your pure love</h2>
+          <p  class="animate__animated animate__fadeInUp">There are not enough homes for all the animals that are born every year.
+            Adopting from a shelter helps weaken the pet overpopulation cycle. 
+           Each year 8 to 12 million dogs, cats, puppies and kittens are euthanized because there are simply not enough homes for them.</p>
+          <p class="animate__animated animate__fadeInUp"> <img src="https://img.icons8.com/ios/50/ffffff/search--v1.png"/> Search 
+            <img src="https://img.icons8.com/ios/50/ffffff/e-learning.png"/>contact 
+            <img src="https://img.icons8.com/ios/50/ffffff/animal-shelter.png"/> adopt</p>
+          <a href="#intro" class="btn-get-started animate__animated animate__fadeInUp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">GET START</a>
+        </div>
+      </div>
+      <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Search for your new pet</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="search" action="config/code.php"  method="POST">
+                <button  id="button"  class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  I'm Looking for
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Dog</a>
+                  <a class="dropdown-item" href="#">Cat</a>
+                </div>
+                <button class="submit" type="submit" name="search_btn">Search</i></button>
+              </form> 
+            </div>
+           
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+</body>
+  <main id="main">
+    <section class="services" id="services">
+    <!-- Services Section -->
+    <h1 id="title">SERVICES</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box icon-box-pink"> <div class="icon"><img src="https://img.icons8.com/ios-filled/50/fa314a/search--v1.png"/></div>
+              <h4 class="title"><a href="">search by pet category</a></h4>
+              
+              <p class="description"></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box icon-box-cyan">
+              <div class="icon"><img src="assets/img/icons8-finger-up-50.png"/></div>
+              <h4 class="title"><a href="">Select your pet</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-green">
+              <div class="icon"><img src="https://img.icons8.com/ios/50/26e07f/add-contact-to-company.png"/></div>
+              <h4 class="title"><a href="">contact us</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-blue">
+              <div class="icon"><img src="https://img.icons8.com/ios/50/4a90e2/puppy.png"/></div>
+              <h4 class="title"><a href="">adopt your pet</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<!--  search Section  -->
+<section  class="searchform" id="search">
+ 
+          <h1 class="" id="searchead">SEARCH FOR YOUR NEW PET</h5>
+
+        <div>
+          <form class="search2" action="config/code.php"  method="POST">
+            <button  id="button"  class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+              I'm Looking for
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Dog</a>
+              <a class="dropdown-item" href="#">Cat</a>
+            </div>
+            <button class="submit" type="submit" name="search_btn">Search</i></button>
+          </form> 
+        </div>
+</section>
+<div><img id="bgimg" src="assets/img/6808563_preview.png" alt=""></div>
+<!--  Contact Section  -->
+<section class="contact" id="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+  <div class="container">
+    <h1 id="cont">CONTACT US</h1>
+    <div class="row">
+
+      <div class="col-lg-6">
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="info-box">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+              <p>Temple Road Galle, Srilanka</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p>info@example.com<br>contact@example.com</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-box">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p>+94 55488 5500<br>+94 6678 2544</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!--  Map Section-->
+<section class="map mt-2">
+  <div class="container-fluid p-0">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76036.85315398956!2d80.30964810000879!3d6.070554358594061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae16e41e60c5fd5%3A0xc42db1b74f2b561!2sThalgampala%20Bus%20Stop!5e0!3m2!1sen!2sbg!4v1628706734931!5m2!1sen!2sbg" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</section>
+</section>
+<!--  about Section-->
+<div id="about"></div>
+  <section class="about">
+  <h1>ABOUT US</h1>
+    <p>Ask anyone who has adopted a pet and they’ll share with you their story of love, fun and companionship. Why? Because shelter pets 
+  are amazing!
+
+  Within the next year, millions of cats and dogs will enter shelters and rescue groups nationwide. In that time, even more people 
+  intend to 
+  bring a pet into their homes, which is why we’re working to show why shelters should be your first choice and preferred way to 
+  acquire a pet.</p>
+  <p>Remember: Dogs and cats who are taken into the care of shelters and rescue groups each year find themselves homeless through no 
+    fault of their own; “moving” and “landlord issues” are the top reasons people give up their pets.</p>
+  <p>This means shelters and rescues are full of loving, spayed or neutered, vaccinated and often trained pets who are just waiting 
+    to meet you! By adopting a cat or dog from a shelter or rescue, you can rest assured that you have not supported the puppy mill 
+    industry.</p>
+  
+  <p>  Adopting a pet from a shelter or rescue is a win-win, for you and the pet. So, what are you waiting for? Begin your search for 
+    cats and dogs available for adoption near you today.</p>
+ 
+  </section>
+  </main><!-- End #main -->
+
+  <!--  Footer -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i>service to potential animal adoption </li>
+              <li><i class="bx bx-chevron-right"></i>Those who willing to adopt a pet can search through this site</li>
+              <li><i class="bx bx-chevron-right"></i>Select your true love from your favour</li>
+              <li><i class="bx bx-chevron-right"></i>Contact us to find your pet</li>
+              <li><i class="bx bx-chevron-right"></i>Meet your lovely pet</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Temple Road<br>
+              Galle<br>
+              Srilanka <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3></h3>
+            <p></p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Tech pirates</span></strong>. All Rights Reserved
+      </div>
+     
+    </div>
+  </footer><!-- End Footer -->
+
+  
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

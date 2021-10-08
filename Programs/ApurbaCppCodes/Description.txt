@@ -1,0 +1,19 @@
+DESCRIPTION
+A Pythagorean Triple (PT) is a group of three POSITIVE INTEGERS, say a,b,c which satisfy: 
+c^2 = a^2 + b^2
+a and b are interchangable whereas c is the largest of all the numbers.
+Eg. 3,4,5 is a PT with c = 5, a and b can be (3 and 4) or (4 and 3) respectively.
+i.e. a = 3, b = 4, c = 5 is identical as a =4, b = 3, c = 5.
+Also, a given c can have multible distinct (a,b).
+Eg. for c = 25, we have (20, 15) as well as (24, 7) as the possible pairs as: 
+25^2 = 20^2 + 15^2 and also, 25^2 = 24^2 + 7^2
+Note that (20, 15) and (15, 20) are identical (twins), so they are not counted as distinct PT.
+
+In this program, we we all the PTs between a lower limit (say lmin) and an upper limit (say lmax)
+such that lmin <= c^2 <= lmax, for every valid c.
+
+Here, an array of linked-lists is used to store all the PTs. A single linked list is a family, i.e. it stores all possible triples: (a,b) for a given c. 
+Any pair (a,b) for a given c is a family member for that c. Eg. (20, 15) and (24, 7) are both family members for c = 25.
+Eg. for lower limit 1 and upper limit 100, we have 2 families:
+(i) for c = 5, this family has one family member (PT) i.e. (3,4) or (4,5)
+(ii) for c = 10, this family also has one family member (PT) i.e. (6,8) or (8,6)
