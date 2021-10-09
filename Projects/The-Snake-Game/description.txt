@@ -1,0 +1,1 @@
+Hello this is a snake game that we all use to play while growing up. it is made up of HTML ,CSS and JS
