@@ -1,0 +1,93 @@
+body
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 3%;
+    color:#FFFFFF !important;
+  }
+  .nav .nav-item .nav-link{
+    font-size: 17px;
+    font-weight: medium;
+    color: #FFFFFF !important;
+    background-color: #084184;
+    border-radius: 20px;
+    padding:8px 20px 7px 20px;
+    margin-right: 10px;
+  }
+  
+
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: l;
+    background: #5CDB95;
+    max-width: 330px;
+    padding-bottom:4%;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.form input{
+    font-family: 'Courier New', Courier, monospace;
+    outline: lightsalmon;
+    background: #f2f2f2;
+    width:90%;
+    border: 0;
+    margin: 0 0 5px;
+    padding:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #084184;
+    width: 100px;
+    border-radius: 30px;
+    border: 0;
+    margin-top: 100px;
+    padding:5px;
+    color: white;
+    font-weight:500;
+    font-size: 15px;
+    cursor: pointer;
+}
+.form button :hover,.form button :active{
+    background: #43A047;
+}
+.form .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.form .message a{
+    color: #084184;
+    text-decoration: none;   
+}
+
+.form .register{
+    display: none;
+}
+.form h3{
+    background-color: #084184;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}

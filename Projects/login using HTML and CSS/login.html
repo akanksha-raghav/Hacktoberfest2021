@@ -1,0 +1,48 @@
+<!Doctype html>
+    <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    </head>
+    <body>
+
+        <div class = "login-page">
+            <div class="form">
+                <h3>Login</h3>
+                <form class="register">
+                   
+                    <input type ="text" placeholder="Username" id="name">
+                    <input type ="text" placeholder="Password" id="pwd">
+                    <input type ="text" placeholder="Email" id="email">
+                    <button onclick="writeData()">Submit</button>
+                    <p class="message"> Already Registered? <a href="#">Login</a></p>
+                </form>
+
+            
+            
+                <form class="login">
+                    <input type ="text" placeholder="Username"/>
+                    <input type ="text" placeholder="Password"/>
+                    <button>Submit</button>
+                    <p class="message">NOT Registered? <a href="#">register</a></p>
+                </form>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+        <script>
+            $('.message a').click(function(){
+            $('form').animate({height: "toggle", opacity:"toggle"},"slow");
+             });
+        </script>
+    </body>
+    
+</html>
