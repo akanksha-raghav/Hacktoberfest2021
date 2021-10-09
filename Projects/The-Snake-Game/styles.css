@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+*{
+   padding:0;
+   margin: 0;
+ 
+}
+
+.body
+{
+    background: url('images/bg.jpg');
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#board
+{
+    background: linear-gradient(rgb(101, 238, 101),rgb(228, 228, 94)) ;
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid;
+    display: grid; 
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns:repeat(18,1fr);
+}
+.head
+{
+    background-color: rgb(255, 0, 140);
+    border :2px solid purple;
+    transform: scale(1.05);
+    border-radius: 9px;
+}
+#scoreBox
+{
+    position: absolute;
+    top:40px;
+    right: 160px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Rampart One', cursive;
+}
+.snake
+{
+background-color: rgb(73, 70, 241);
+border: 3px solid black;
+border-radius: 50%;
+}
+.food
+{
+    background-color: rgb(252, 13, 13);
+    border: 3px solid rgb(7, 5, 0);
+   border-radius: 50%;
+}
