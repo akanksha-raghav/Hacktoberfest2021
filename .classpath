@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="ashan-tharaka/|bodhiaditya/|Archit/|Prateek/" kind="src" path="Programs"/>
+	<classpathentry kind="src" path="Programs/Archit"/>
+	<classpathentry kind="src" path="Programs/ashan-tharaka"/>
+	<classpathentry kind="src" path="Programs/bodhiaditya"/>
+	<classpathentry kind="src" path="Programs/Prateek"/>
+	<classpathentry kind="lib" path="Projects/TutionClassManagementSystem App/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
