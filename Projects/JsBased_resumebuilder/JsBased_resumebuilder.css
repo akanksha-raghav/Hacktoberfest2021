@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 400;
+    font-size: 14px;
+}
+body{
+    background:linear-gradient(135deg, #E3E3E3 0%,#9a9a9a 100%);
+    display: grid;
+    place-items: center;
+    font-weight: 450;
+    opacity: 1;
+}
+
+.none
+{
+    display: none;
+}
+.resume
+{
+    margin-top: 20px;
+    width: 800px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background-color: #fff;
+    height: 1150px;
+}
+#print
+{
+    background-color: #fff;
+    padding: 30px 20px;
+    height: 1120px;
+    
+}
+.total
+{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:10fr 1fr 17fr ;
+    height: 1050px;
+}
+.total .middleline
+{
+    background-color: #000;
+    width: 1px;
+}
+.total .leftwrap
+{
+    margin-top: 10px;
+}
+.name{
+    text-align: center;
+    line-height: 50px;
+}
+.name span
+{
+    font-size: 45px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.post
+{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.line
+{
+    margin: 25px 70px 0px;
+    height: 3px;
+    width: 130px;
+    background-color: #000;
+}
+.contacts
+{
+    margin-top: 35px;
+    text-align: center;
+}
+.education
+{
+    text-align: center;
+}
+.title
+{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin:35px 0 15px 0;
+}
+.edublock
+{
+    margin-bottom:15px ;
+}
+.degree
+{
+    font-weight: 600;
+    font-size: 17px;
+}
+.btn-success
+{
+    margin-left: 85px;
+}
+.skills
+{
+    text-align: center;
+}
+.skill
+{
+    margin: 13px 0;
+}
+.rightwrap
+{
+    margin-right: 20px;
+}
+.fst
+{
+    margin-top:15px;
+    margin-bottom: 20px;
+}
+.line1
+{
+    margin: 35px 0px 10px;
+    height: 3px;
+    width: 130px;
+    background-color: #000;
+}
+.rit
+{
+    margin: 20px 0;
+}
+
+/*-----------------------------------------*/
+.nav
+{
+}
+.navbtn
+{
+position: fixed;
+top: 40%;
+left: 4%;
+transform: translate(-40%,-4%);
+height: 60px;
+width: 60px;
+border-radius: 50%;
+border:#fff 2px solid;
+transition: 300ms ease-in-out;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.navbtn:nth-child(2)
+{
+top: 50%;
+left: 4.4%;
+transform: translate(-50%,-4.4%);
+}
+.navbtn:nth-child(3)
+{
+top: 60%;
+left: 4.8%;
+transform: translate(-60%,-4.8%);
+}
+.navbtn:hover
+{
+    background-color: black;
+    color: #fff;
+    border: #000 2px solid;
+    height: 65px;
+    width: 65px;
+}
