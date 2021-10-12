@@ -1,0 +1,2 @@
+USing python language with django framework
+refer the edureca django video i get basic idea about django.
