@@ -16,5 +16,6 @@ int main() {
     vector<int> nums = {1, 2, 2, 5, 6, 9, 11};
     int target = 6;
     cout << binarySearch(nums, target) << "\n";
+    
     return 0;
 }
