@@ -6,4 +6,4 @@
 </ul>
 
 <h2>How to execute:</h2>
-<h3>Run the Notepad Gui.py</h3>
+<h3>Run the Notepad GUI.py</h3>
