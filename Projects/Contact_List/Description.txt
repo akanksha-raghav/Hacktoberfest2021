@@ -1,0 +1,8 @@
+This code for contact list stores the data in a txt file stored in the same location as the code. 
+It takes 4 parameters: Name, Contact No., Location and Connection. 
+The code contains the following features: 
+1. Read contact(s)
+2. Add a contact
+3. Delete contact(s)
+4. Insert a contact
+5. Modify a contact 
