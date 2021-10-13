@@ -1,0 +1,2 @@
+run the script, it will display available slots of dose 1 and dose 2 respectively.
+find your district id from the link : https://github.com/bhattbhavesh91/cowin-vaccination-slot-availability/blob/main/district_mapping.csv
