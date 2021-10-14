@@ -1,5 +1,5 @@
 body {
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(55, 56, 52);
     background-color: bisque;
     font-family: 'Times New Roman';
@@ -29,11 +29,11 @@ body {
     margin: 0px auto;
     width: 500px;
     height: 375px;
-    border: 10px #333 solid;
+    border: 15px #333 solid;
 }
 
 #video {
-    width: 500px;
+    width: 400px;
     height: 375px;
-    background-color: aquamarine;
+    background-color: rgb(56, 185, 142);
 }
