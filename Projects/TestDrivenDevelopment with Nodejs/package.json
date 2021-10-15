@@ -1,0 +1,24 @@
+{
+  "name": "node-api-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit -- timeout 15000",
+    "coverage": "nyc --reporter=html --reporter=text mocha --exit --timeout 15000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mocha": "^9.1.2",
+    "mongoose": "^6.0.8",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
