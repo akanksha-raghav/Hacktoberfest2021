@@ -1,3 +1,5 @@
+# find first index of number by using recusrion
+
 def firstIndex(arr, x):
     l = len(arr)
     if l == 0:
@@ -12,7 +14,6 @@ def firstIndex(arr, x):
         return -1
     else:
         return smallerListOutput + 1
-    # Please add your code here
 
 # Main
 from sys import setrecursionlimit
