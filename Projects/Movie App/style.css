@@ -1,0 +1,106 @@
+/******************************************
+*  Author : Pratibha Singh   
+*******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=DM%20Sans');
+body {
+    font-family: DM Sans;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(46, 34, 112);
+}
+
+.navbar {
+    background-color: rgb(66, 51, 148);
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    position: fixed;
+}
+
+.navbar input {
+    font-family: inherit;
+    padding: 10px 15px;
+    width: 240px;
+    border-radius: 20px;
+    outline: none;
+    background-color: rgb(45, 37, 88);
+    color: white;
+    margin-right: 50px;
+}
+
+.navbar input::placeholder {
+    color: rgb(173, 173, 173);
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 100px 30px 30px;
+}
+
+.movie-container .movie {
+    background-color: rgba(109, 35, 170, 0.6);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.movie-container .movie img {
+    height: 450px;
+    max-width: 100%;
+}
+
+.movie-container .movie .overview {
+    padding: 0 20px;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.movie-container .movie .overview:hover {
+    overflow: visible;
+    white-space: normal;
+    width: auto;
+}
+
+.movie-container .movie .info {
+    padding: 0 20px;
+    width: 100%;
+}
+
+.movie-container .movie .info h3 {
+    color: white;
+    width: 70%;
+    float: left;
+    padding-right: 10px;
+    margin: 18px 0px;
+}
+
+.movie-container .movie .info p {
+    float: left;
+    width: 15%;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 14px 0;
+    background-color: rgb(70, 10, 104);
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px 0px;
+}
+
+.movie-container .movie .info p.red {
+    color: rgb(255, 16, 16);
+}
+
+.movie-container .movie .info p.orange {
+    color: rgb(255, 187, 0);
+}
+
+.movie-container .movie .info p.green {
+    color: rgb(49, 255, 49);
+}
