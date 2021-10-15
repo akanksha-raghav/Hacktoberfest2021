@@ -1,6 +1,6 @@
 import random
 
-max_num = int(input("Enter the maximum no- "))
+max_num = int(input("Enter the maximum no - "))
 
 random_number = random.randint(1, max_num)
 guess = 0
