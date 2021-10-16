@@ -1,0 +1,13 @@
+- [x] show color code on expansion
+- [x] copy color code on code click
+- [x] undo ability
+- [x] redo ability
+- [x] copy css code for the scheme
+- [ ] save button for saving current scheme into storage
+- [ ] lock any number of colors
+- [ ] error on going less than locked color
+- [x] add space, ctr-z,ctrl-y events
+- [ ] avoid having two same colors
+- [x] store colors in hex
+- [x] limit number of undos available
+- [x] have rainbow color in title

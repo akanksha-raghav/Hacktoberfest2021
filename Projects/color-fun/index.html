@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Color Fun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Color Fun" />
+    <meta
+      name="description"
+      content="A website for Color scheme generator for CSS3 projects"
+    />
+    <!--   icon to be displayed in tab of the browser and more places   -->
+    <link
+      rel="shortcut icon"
+      onclick="openShareWindow('')"
+      href="favicon.png"
+    />
+    <!--   websites url   -->
+    <link rel="canonical" href="https://thevipuljha.github.io/colorfun/" />
+    <!-- open graph meta tags -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Color Fun" />
+    <!--   type can be of any other value according to ogp.me documentation  -->
+    <meta property="og:type" content="website" />
+
+    <meta property="og:url" content="https://thevipuljha.github.io/colorfun/" />
+    <meta
+      property="og:image"
+      content="https://thevipuljha.github.io/colorfun/banner.png"
+    />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:site_name" content="Color Fun" />
+    <meta
+      property="og:description"
+      content="A website for Color scheme generator for CSS3 projects"
+    />
+    <!-- twitter cards meta tags -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Color Fun" />
+    <meta property="twitter:creator" content="@thevipuljha" />
+    <meta
+      property="twitter:description"
+      content="A website for Color scheme generator for CSS3 projects"
+    />
+    <meta
+      property="twitter:image"
+      content="https://thevipuljha.github.io/colorfun/banner.png"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="title-name">
+      <h1 id="title">
+        <span class="text-color1">C</span><span class="text-color2">o</span
+        ><span class="text-color3">l</span><span class="text-color2">o</span
+        ><span class="text-color4">r</span>&nbsp;<span class="text-color5"
+          >F</span
+        ><span class="text-color6">u</span><span class="text-color7">n</span>
+      </h1>
+    </div>
+
+    <div class="color-pallete" id="colorPallete"></div>
+    <div class="options-container">
+      <div class="undo-redo-container">
+        <button id="undoButton">
+          <span class="front">Undo</span>
+        </button>
+        <button id="redoButton">
+          <span class="front">Redo</span>
+        </button>
+      </div>
+      <div class="color-numbers-div">
+        <button class="color-number-change-button" id="decreaseColorNumber">
+          <span class="front">-</span>
+        </button>
+        <span class="number-of-colors" id="numberOfColors">5</span>
+        <button class="color-number-change-button" id="increaseColorNumber">
+          <span class="front">+</span>
+        </button>
+      </div>
+    </div>
+    <div class="action-container">
+      <div class="scheme-copy-container">
+        <button id="copyPaletteButton">
+          <span class="front">CopyPallete</span>
+        </button>
+      </div>
+      <div class="generate-button-wrapper">
+        <button id="generateButton">
+          <span class="front">Generate</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

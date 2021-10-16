@@ -1,0 +1,262 @@
+:root {
+    --title-color-1: #3fb0ac;
+    --title-color-2: #f57c00;
+    --title-color-3: #8e24aa;
+    --title-color-4: #558b2f;
+    --title-color-5: #d3002e;
+    --title-color-6: #3f51b5;
+    --title-color-7: #ff00dd;
+}
+
+.text-color1 {
+    color: var(--title-color-1);
+}
+
+.text-color2 {
+    color: var(--title-color-2);
+}
+
+.text-color3 {
+    color: var(--title-color-3);
+}
+
+.text-color4 {
+    color: var(--title-color-4);
+}
+
+.text-color5 {
+    color: var(--title-color-5);
+}
+
+.text-color6 {
+    color: var(--title-color-6);
+}
+
+.text-color7 {
+    color: var(--title-color-7);
+}
+
+@font-face {
+    font-family : 'Noto Sans JP';
+    font-style  : normal;
+    font-display: swap;
+    font-weight : 300;
+    src         : local(''),
+        url('fonts/noto-sans-jp-v28-latin-300.woff2') format('woff2'),
+        url('fonts/noto-sans-jp-v28-latin-300.woff') format('woff');
+}
+
+@font-face {
+    font-family : 'Noto Sans JP';
+    font-style  : normal;
+    font-display: swap;
+    font-weight : 400;
+    src         : local(''),
+        url('fonts/noto-sans-jp-v28-latin-regular.woff2') format('woff2'),
+        url('fonts/noto-sans-jp-v28-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family : 'Noto Sans JP';
+    font-style  : normal;
+    font-display: swap;
+    font-weight : 500;
+    src         : local(''),
+        url('fonts/noto-sans-jp-v28-latin-500.woff2') format('woff2'),
+        url('fonts/noto-sans-jp-v28-latin-500.woff') format('woff');
+}
+
+html {
+    width : 90vw;
+    margin: 0 auto;
+}
+
+body {
+    width                      : 100%;
+    margin                     : 0 auto;
+    font-family                : "Noto Sans JP", Helvetica, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout      : none;
+    -webkit-user-select        : none;
+    -moz-user-select           : none;
+    user-select                : none;
+    background-color           : #dee9fa;
+}
+
+#title {
+    text-align: center;
+}
+
+#title span {
+    padding       : 0px 4px;
+    text-transform: uppercase;
+}
+
+.color-pallete {
+    margin         : 4em 0;
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    padding        : 8px;
+    border-radius  : 20px;
+    box-shadow     : -5px 3px 10px 1px rgb(40 36 89 / 20%),
+        5px 3px 10px 1px rgb(40 36 89 / 15%);
+    height          : 10em;
+    transform       : translate3d(0, 0, 0);
+    background-color: #fff;
+}
+
+
+.pallete-color {
+    height    : 100%;
+    flex      : 1;
+    position  : relative;
+    transition: all 200ms linear;
+    cursor    : pointer;
+}
+
+.pallete-color:hover {
+    flex: 25%;
+}
+
+.pallete-color:first-child {
+    border-top-left-radius   : 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.pallete-color:last-child {
+    border-top-right-radius   : 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.hex-code-span {
+    display        : flex;
+    position       : absolute;
+    top            : 0;
+    left           : 0;
+    width          : 100%;
+    height         : 100%;
+    align-items    : center;
+    justify-content: center;
+    text-transform : uppercase;
+    font-size      : small;
+    z-index        : 1;
+    opacity        : 0;
+    transition     : opacity 200ms cubic-bezier(.89, -0.06, .47, 1.04);
+    position       : absolute;
+    pointer-events : none;
+}
+
+.pallete-color:hover .hex-code-span {
+    opacity: 1;
+}
+
+.options-container,
+.action-container {
+    width          : 100%;
+    display        : flex;
+    flex-flow      : row wrap;
+    align-items    : center;
+    justify-content: space-around;
+}
+
+.options-container div {
+    width          : 40%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+button {
+    background-color: #990606;
+    border          : none;
+    height          : 44px;
+    min-width       : 56px;
+    border-radius   : 1em;
+    font-size       : medium;
+    font-weight     : 600;
+    color           : white;
+    padding         : 0;
+    margin          : 10px 6px;
+    white-space     : nowrap;
+    cursor          : pointer;
+    outline-color   : #990606;
+    outline-offset  : 2px;
+    transition      : box-shadow 200ms linear;
+    box-shadow      : 0 4px 6px 0 #636363;
+}
+
+*:active {
+    outline: none !important;
+}
+
+.front {
+    display      : block;
+    width        : 100%;
+    height       : 100%;
+    display      : grid;
+    place-items  : center;
+    border-radius: 1em;
+    background   : #fa0f0f;
+    will-change  : transform;
+    transform    : translateY(-4px);
+    transition   : filter 200ms ease-in-out, transform 400ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+button:active {
+    transition-duration: 50ms;
+    box-shadow         : 0 2px 4px 0 #636363;
+}
+
+button:active .front {
+    transition-duration: 50ms;
+    transform          : translateY(-2px);
+}
+
+button:hover .front {
+    filter: brightness(140%);
+}
+
+.number-of-colors {
+    margin     : 0 5px;
+    font-size  : x-large;
+    font-weight: bolder;
+}
+
+.color-numbers-div button {
+    font-size: 2em;
+}
+
+.generate-button-wrapper,
+.scheme-copy-container {
+    width: 40%;
+}
+
+#generateButton,
+#copyPaletteButton {
+    width : 100%;
+    margin: 10px 0;
+}
+
+
+
+@media (min-width: 560px) {
+    body {
+        width: 80vw;
+    }
+
+    .color-pallete {
+        height: 12em;
+    }
+
+    .hex-code-span {
+        font-size: medium;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        width: 60vw;
+    }
+}
