@@ -5,11 +5,6 @@
 ## Installation
 
 ```bash
-# clone the repository
-git clone https://github.com/0kyn/dfgen
-
-cd dfgen
-
 # local
 npm install --save-dev dfgen
 
