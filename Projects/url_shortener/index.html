@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>URL SHORTENER</title>
+    <!-- Bootstrap icons-->
+    <link href="./assets/bootstrapIcon/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./assets/fontawesome-free/css/all.min.css">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./assets/css/custom.css" rel="stylesheet" />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <!-- Navigation-->
+        <nav class="navbar navbar-light bg-light static-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">URL Shortener</a>
+                <a class="btn btn-primary" href="./admin.php">admin</a>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center text-white">
+                            <!-- Page heading-->
+                            <h1 class="mb-5">Generate a short URL Now!</h1>
+                            <!-- Signup form-->
+                            <form id="shorten">
+                                <div class="input-group input-group-lg">
+                                    <input class="form-control" type="text" placeholder="Enter or paste URL here" aria-label="Enter your email..." aria-describedby="button-submit" name="url" required autocomplete="off" />
+                                    <button class="btn btn-primary" id="button-submit" type="submit">Go</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="shorten-result">
+                    <div class="row justify-content-center mt-2">
+                        <div class="col-xl-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3><b>URL Shortened Successfully</b></h3>
+                                    <hr>
+                                    <div class="w-100 d-flex-responsive align-items-center">
+                                        <div class="w-30" id="result-img"><img src="" class="img-thumbnail rounded w-fluid" style="object-fit: contain;" alt=""></div>
+                                        <div class="w-70 p-2" id="result-info">
+                                            <h4><b id="site-title" class=" truncate-2"></b></h4>
+                                            <hr>
+                                            <small id="site-description" class="truncate"></small>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="w-100">
+                                        <p class="m-0">
+                                            <label for=""><b class="text-muted">URL:</b></label>
+                                            <span id="o_url"></span>
+                                        </p>
+                                        <p class="m-0">
+                                            <label for=""><b class="text-muted">Shortened URL:</b></label>
+                                            <span id="shorten_url"></span>
+                                            <span><a href="" id="copy_to_clip" class="shorten_url_link text-muted btn btn-sm btn-default border" target="_blank"><i class="fa fa-clone"></i>  Copy to Clipboard</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Icons Grid-->
+        <section class="features-icons bg-light text-center">
+            <div class="container">
+                <center>
+                    <h3>How to USE</h3>
+                </center>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
+                            <h3>Step 1</h3>
+                            <p class="lead mb-0">Copy the site URL you want to shorten.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-clipboard-check m-auto text-primary"></i></div>
+                            <h3>Step 2</h3>
+                            <p class="lead mb-0">Paste the URL in the provided input field abd "click" the "Go" button.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-clipboard m-auto text-primary"></i></div>
+                            <h3>Step 3</h3>
+                            <p class="lead mb-0">"Click" the "Copy to Clipboard" button to copy the generated shortened url.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; URL SHORTENER 2021. All Rights Reserved. Developed by <a href="mailto:pradhan.ashutosh111@gmail.com" target="_blank">criox4</a></p>
+                    </div>
+                    <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                                <a href="https://www.facebook.com/coolashu11/"><i class="bi-facebook fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item me-4">
+                                <a href="https://twitter.com/ashu367coolz"><i class="bi-twitter fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/__p.r.a.d.h.a.n__/"><i class="bi-instagram fs-3"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="./assets/js/jquery-3.6.0.min.js"></script>
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="./assets/js/script.js"></script>
+    </main>
+</body>
+
+</html>
