@@ -1,0 +1,46 @@
+* {
+  font-family: 'Bellota text';
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(60deg, #ffa970, #ff2870);
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2vh 4vw;
+  width: 70%;
+  background-color: #eee;
+  border-radius: 7px;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 3px 2px rgba(0,0,0,0.24);
+}
+
+h1 {
+  color: #333;
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+textarea {
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 30px;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-bottom: 2vh;
+  resize: none;
+  width: 100%;
+  height: 20vh;
+  box-sizing: border-box;
+}
+
+#translateTitle {
+  text-align: center;
+}
