@@ -30,7 +30,9 @@ The goal of this project is to make a prediction model which will predict the Di
 5.Prediction Models
    - LogisticRegression
    - DecisionTreeClassifier
-    - RandomForestClassifier
+   - RandomForestClassifier
+   
+    
     
 
 
@@ -47,6 +49,7 @@ The goal of this project is to make a prediction model which will predict the Di
 
 * RandomForestClassifier
 ***************************************
+
 # :bar_chart: **Model Accuracy comparison**
 | Model           |   Accuracy                                                          |
 | ----------------- | ------------------------------------------------------------------ |
@@ -54,13 +57,17 @@ The goal of this project is to make a prediction model which will predict the Di
 | DecisionTreeClassifier| 1.0 |
 | RandomForestClassifier |0.99  |
 
+
 ***************************************
+
 ## :bulb: CONCLUSION
 
 
 * Here I have applied three different algorithms.
 * But the DecisionTreeClassifier stand out to be the best model among all those implemented models based on the accuracy scores.
+* 
 ***************************************
+
 ## Author
 Code Contributed by Tanvi Deshmukh.
 ![MIT License](https://img.shields.io/badge/Made_With_Jupyter-2CA5E0?style=for-the-badge_Color=whit)
