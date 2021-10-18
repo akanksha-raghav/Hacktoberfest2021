@@ -11,13 +11,13 @@ Machine learning methods are widely used in predicting diabetes, and they get pr
 ***************************************
 
 
-## Goal
+ #  :dart: **Goal**
 The goal of this project is to make a prediction model which will predict the Diabetes problem based on the given data.
 
 ***************************************
 
 
-## What have I done?
+# :clipboard: **What have I done?**
 
 1.Importing all the required libraries.
 
@@ -28,18 +28,17 @@ The goal of this project is to make a prediction model which will predict the Di
 4.Data Processing
 
 5.Prediction Models
+  
+    - LogisticRegression
+    - DecisionTreeClassifier
+    - RandomForestClassifier
 
-     - LogisticRegression
+6.Model Comparison
 
-     - DecisionTreeClassifier
-
-     - RandomForestClassifier
-     
-
-6.Conclusion
+7.Conclusion
 
 ***************************************
-## Model  Used
+# :key: **Model  Used**
 
 * LogisticRegression
 
@@ -47,7 +46,7 @@ The goal of this project is to make a prediction model which will predict the Di
 
 * RandomForestClassifier
 ***************************************
-## Model Accuracy comparison
+# :bar_chart: **Model Accuracy comparison**
 | Model           |   Accuracy                                                          |
 | ----------------- | ------------------------------------------------------------------ |
 |LogisticRegression  |0.79 |
