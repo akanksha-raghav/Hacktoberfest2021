@@ -1,0 +1,76 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background-color: rgb(40,40,40);
+}
+
+.calculator:hover{
+	transform:  scale(1.01);
+}
+/* main div container for calculator */
+.calculator{
+	border-radius: 10%;
+	background-color: black;
+	padding: 0;
+	padding-top: 50px;
+	display: inline-block;
+}
+
+/* ul list */ 
+.number-layer{
+	list-style: none;
+	background-color: black;
+	display: inline-block;
+	padding:  0;
+	margin: 30px;
+}
+
+/* for number buttons only */
+.calculator-number{
+	color:	rgb(0,137,123);
+}
+
+button:hover{
+	background-color: rgba(255,255,255,0.1);
+}
+
+button{
+	font-size: 30px;
+	border: black;
+	border-radius: 50% ;
+	margin: 1px 10px;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-color: black;
+	color: orange;
+}
+
+.screen{
+	display: block;
+	padding: 0;
+}
+
+
+#input{
+	letter-spacing: 3px;
+
+	background-color: rgb(	0,86,77);
+	border: none;
+	width: 100%;
+	padding: 2% ;
+	text-align: right;
+	font-size: 30px;
+	color: white;
+	outline: none;
+}
+
+#output{
+	text-align: right;
+	font-size: 30px;
+	background-color: 	rgb(54,54,54);
+	color: rgba(255,255,255,0.4);
+	padding: 2%;
+}
