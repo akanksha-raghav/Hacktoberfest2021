@@ -20,6 +20,9 @@ window.onload =  function(){
 		x[i].addEventListener("click", 
 						
 						function () {
+
+							try
+							{
 							document.getElementById("output").style.color = "rgba(255,255,255, 0.4)";
 							document.getElementById("output").style.fontWeight = "400";
 							var pre_string = document.getElementById("input").value;
@@ -48,8 +51,26 @@ window.onload =  function(){
 								document.getElementById("output").innerText  = "=";
 							}
 							
+
+							document.getElementById("output").style.color = "black";
+							}
+
+							catch(err)
+							{
+								document.getElementById("output").style.color = "red";
+							}
 						}
 		);
 	}
+
+	document.getElementById("input").addEventListener("keypress",
+
+		(event)=>{
+				setTimeout(
+					()=>{
+				x[1].click();} , 50) ;
+		}
+
+	);
 
 }
