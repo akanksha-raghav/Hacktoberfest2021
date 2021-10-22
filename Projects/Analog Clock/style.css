@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    background: #000;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#time-block {
+    margin: 10em auto;
+    width: 500px;
+}
+
+#clock {
+    width: 450px;
+    height: 450px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background: linear-gradient(to right, #89216B, #DA4453);
+    position: relative;
+}
+
+#sec-hand {
+    width: 1px;
+    height: 47%;
+    background: #fff;
+    transform-origin: 50% 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+#min-hand {
+    width: 5px;
+    height: 42%;
+    background: #4caf50;
+    transform-origin: 50% 80%;
+    position: absolute;
+    top: 16%;
+    left: calc(50% - -2px);
+}
+
+#hr-hand {
+    width: 10px;
+    height: 35%;
+    background: #ffeb3b;
+    transform-origin: 50% 80%;
+    position: absolute;
+    top: 19%;
+    left: calc(50% - 5px);
+}
+
+#origin {
+    width: 50px;
+    height: 50px;
+    background: #333;
+    border-radius: 50%;
+    transform-origin: 50% 80%;
+    position: absolute;
+    top: 42%;
+    left: calc(50% - 20px);
+}
+
+.number {
+    height: 100%;
+    position: absolute;
+    left: calc(50% - 0.5em);
+}
+
+.number p {
+    width: 1em;
+    line-height: normal;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.number1 {
+    transform: rotate(30deg);
+}
+
+.number1 p {
+    transform: rotate(-30deg);
+}
+
+.number2 {
+    transform: rotate(60deg);
+}
+
+.number2 p {
+    transform: rotate(-60deg);
+}
+
+.number3 {
+    transform: rotate(90deg);
+}
+
+.number3 p {
+    transform: rotate(-90deg);
+}
+
+.number4 {
+    transform: rotate(120deg);
+}
+
+.number4 p {
+    transform: rotate(-1200deg);
+}
+
+.number5 {
+    transform: rotate(150deg);
+}
+
+.number5 p {
+    transform: rotate(-150deg);
+}
+
+.number6 {
+    transform: rotate(180deg);
+}
+
+.number6 p {
+    transform: rotate(-180deg);
+}
+
+.number7 {
+    transform: rotate(210deg);
+}
+
+.number7 p {
+    transform: rotate(-210deg);
+}
+
+.number8 {
+    transform: rotate(240deg);
+}
+
+.number8 p {
+    transform: rotate(-240deg);
+}
+
+.number9 {
+    transform: rotate(270deg);
+}
+
+.number9 p {
+    transform: rotate(-270deg);
+}
+
+.number10 {
+    transform: rotate(300deg);
+}
+
+.number10 p {
+    transform: rotate(-300deg);
+}
+
+.number11 {
+    transform: rotate(330deg);
+}
+
+.number11 p {
+    transform: rotate(-330deg);
+}
+
+.number12 {
+    transform: rotate(360deg);
+}
+
+.number12 p {
+    transform: rotate(-360deg);
+}

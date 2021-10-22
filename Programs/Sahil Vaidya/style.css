@@ -1,0 +1,86 @@
+*{
+    margin: 0 ;
+    padding:0 ;
+    box-sizing: border-box ;
+  }
+  
+  #header{
+    background-color: #146eb4;
+    height: 40px ;
+  }
+  #logo{
+    margin-left: auto ;
+    margin-right: auto ;
+    display: block ;
+    padding-top: 5px ;
+    
+  }
+  #clock{
+    /* background-color: red ; */
+    height: 500px ;
+    flex: 1 1 0 ;
+  }
+  #pdetails{
+    /* background-color: blue ; */
+    padding-top: 50px ;
+    height:500px ;
+    flex:2 1 0 ;
+  }
+  #content{
+    display: flex;
+    
+    height:auto ;
+    width: 100% ;
+    
+  }
+  #clock_image{
+    height: 220px;
+    width: 220px;
+    background-color: black;
+    margin: 50px auto ;
+  }
+  #clock_image img{
+    height: 220px ;
+    width: 220px ;
+  }
+  #selection{
+    display: flex ;
+  }
+  #white,#blue,#black{
+    padding: 10px 20px ;
+    border-radius: 5px ;
+    outline: none ;
+  }
+  
+  
+  #selection button{
+    margin: 1px 10px ;
+  }
+  
+  #white{
+    background-color:white;
+    border-color: black;
+  }
+  #black{
+    background-color: black;
+    
+  }
+  #blue{
+    background-color: blue;
+  }
+  
+  #white:focus{
+    border-color: red;
+  }
+  #black:focus{
+    border-color: #ff0000;
+  }
+  #blue:focus{
+    border-color: red;
+  }
+  h2,p,h3{
+    font-family: 'Lato', sans-serif;
+  }
+  #selection{
+    padding-top: 5px ;
+  }

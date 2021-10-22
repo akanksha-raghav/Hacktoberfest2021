@@ -1,0 +1,38 @@
+{
+  "name": "dfgen",
+  "version": "0.4.0",
+  "description": "Dummy file generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0kyn/dfgen.git"
+  },
+  "keywords": [
+    "dummy",
+    "file",
+    "generator",
+    "pdf",
+    "jpg",
+    "png"
+  ],
+  "author": "0kyn",
+  "license": "MIT",
+  "bin": {
+    "dfgen": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/0kyn/dfgen/issues"
+  },
+  "homepage": "https://github.com/0kyn/dfgen#readme",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "commander": "^8.2.0",
+    "gif-encoder": "^0.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
