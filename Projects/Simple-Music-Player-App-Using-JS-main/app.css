@@ -1,0 +1,129 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 95vh;
+    background-color: rgb(186, 216, 206);
+}
+
+.container {
+    width: 330px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(150, 146, 146, 0.5), -5px -5px 10px rgba(150, 146, 146, 0.5);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .titleText h3,
+.container .titleText h4 {
+    text-align: center;
+    margin: 10px 0;
+    letter-spacing: 0.4px;
+}
+
+.container .titleText h3 {
+    color: rgb(32, 32, 156);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container .titleText h4 {
+    color: rgb(196, 186, 173);
+}
+
+.container .image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: hue-rotate(80deg);
+    box-shadow: 5px 5px 10px 5px rgba(150, 146, 146, 0.5);
+}
+
+
+/* Song Progress Styling */
+
+.progressBar .time {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-size: 12px;
+}
+
+.progressBar .bar {
+    box-shadow: inset 2px 2px 3px rgba(150, 146, 146, 0.5), inset -1px -1px 3px rgba(150, 146, 146, 0.5);
+    width: 200px;
+    height: 10px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.progressBar .bar .pBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    width: 0%;
+    height: 10px;
+    border-radius: 80px;
+    margin-top: -0.7px;
+    margin-left: 0.5px;
+    cursor: pointer;
+}
+
+
+/* Playing Area */
+
+.container .playArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.container .playArea div {
+    cursor: pointer;
+}
+
+.container .playArea .playBtn {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0;
+}
+
+
+/* JavaScript Added Class */
+
+.anime {
+    animation: anime 3s linear infinite;
+}
+
+@keyframes anime {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App Player</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="titleText">
+            <h3 class="mainTitle">Cheap Thrills</h3>
+            <h4 class="subTitle">Sia Furler</h4>
+        </div>
+        <div class="image">
+            <img src="1.jpg" alt="songImage" id="image">
+        </div>
+
+        <div class="progressBar">
+            <div class="time">
+                <div class="ctime">0:00</div>
+                <div class="totalTime">2:29</div>
+            </div>
+            <div class="bar">
+                <div class="pBar"></div>
+            </div>
+        </div>
+
+        <div class="playArea">
+            <div class="previousBtn"><i class="fas fa-backward" title="Previous" id="previous"></i></div>
+            <div class="playBtn"><i class="fas fa-play" title="Play" id="play"></i></div>
+            <div class="nextBtn"><i class="fas fa-forward" title="Next" id="next"></i></div>
+        </div>
+
+        <!-- Music Files -->
+        <audio src="1.mp3" id="song"></audio>
+
+    </div>
+
+</body>
+
+</html>
